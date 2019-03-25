@@ -8,3 +8,11 @@
   padding: 14px 16px;
   font-size: 17px
 }
+
+('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
