@@ -1,0 +1,14 @@
+body {
+  background-color: #B7A8AB;
+  background-image: url(images/backgrounddrops.jpg);
+}
+
+
+h1 {
+  color: #C71634;
+}
+p:first-letter {
+  color: #C71634;
+  font-size: 1.4em;
+  font-weight: bold;
+}
