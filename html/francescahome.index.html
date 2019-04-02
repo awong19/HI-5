@@ -7,47 +7,75 @@
       HI-5! Web Concepts & Designs
   </title>
   <link rel="stylesheet" href="francescastyle.css" />
+                  <!--this following link is a code that allows to show and print html5 elements in older browsers-->
+                  <!--[if lt IE9]-->
+                  <script src="js/hytml5shiv-printshiv.js"></script>
+                  <!--[endif]-->
 </head>
 
 <body>
-
+<!--Start of main header-->
     <header role="banner">
-      <div class="banner"> <!--when CSS is applies, this will be its class-->
+      <div class="banner"> <!--when CSS is applied, this will be its class-->
+
+        <p class="logo">
           <img src="images/hi5logo2.png" width="300px" height="275px" alt="hi5logo"/>
-          <nav role="navigation">
-            About Us
-          </nav>
+        </p>
+        <!--links to socials-->
+        <ul class="social-sites">
+          <li> Facebook </li>
+          <li> Twitter </li>
+          <li> Instagram </li>
+        </ul>
+        <!--Navigation bar-->
+          <ul class="nav-justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Get In Touch</a>
+                </li>
+              </ul>
+
       </div>
     </header>
 
+
+<!--START OF MAIN CONTENT-->
   <h1>
     Online Presence is the key to your success
   </h1>
-
-    <section>
-      <img src="images/onlinepresence.png" width="300px" height="300px" alt="onlinepresence"/>
-      <p>
+<!--dividing home page into 3 sections visually appealing, then thee will be a footer with legal bits and contacts-->
+    <section class="post" id="sec1">
+      <img class="post-photo" src="images/onlinepresence.png" width="300px" height="300px" alt="onlinepresence"/>
+      <p class="blurb">
     Whenever you advertise your project, people will look for it on the web
       </p>
     </section>
 
-    <section>
-      <img src="images/professionalism.png" width="300px" height="300px" alt="professionalism"/>
-      <p>
+    <section class="post" id="sec2">
+      <img class= "post-photo" src="images/professionalism.png" width="300px" height="300px" alt="professionalism"/>
+      <p class="blurb">
     Your website should reflect your business and professionalism. It represents where your pitch starts and it will hook the customers to your services!
       </p>
     </section>
 
-<section>
-  <img src="images/profitability.png" width="300px" height="300px" alt="profitability"/>
-  <p>
+    <section class="post" id="sec3">
+      <img class="post-photo" src="images/profitability.png" width="300px" height="300px" alt="profitability"/>
+      <p class="blurb">
     Learn more on how you can save time and money with a unique, bespoke, professional website
-  </p>
-</section>
+    </p>
+    </section>
 
 
-
-<footer role="contentinfo">
+<!--START PAGE FOOTER-->
+<footer class="footer" role="contentinfo">
   <p>
     <small>
     &copy; HI-5 Web Concepts.
