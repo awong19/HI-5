@@ -98,3 +98,22 @@ p:first-letter {
    height: 600
    adjust: center
 }
+
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a{
+    margin-right: 20px;
+}
+
+.aboutus{
+  font-style: italic;
+  font: harlow;
+  font-size: 100px;
+
+}
+
+.bio {
+  font-size: 25px;
+  font-weight: normal;
+}
