@@ -90,3 +90,11 @@ p:first-letter {
 .post-photo {
   float: left;
 }
+
+
+
+.carousel-item {
+   width: 1000
+   height: 600
+   adjust: center
+}
