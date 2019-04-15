@@ -1,6 +1,7 @@
 .social-part .fa{
     padding-right:20px;
 }
+
 ul li a{
     margin-right: 20px;
 }
@@ -61,4 +62,74 @@ h2 {
 
 .Melis {
   float: left;
+}
+
+body {
+  margin: 0;
+  background-color: #B7A8AB;
+  background-image: url(images/backgroundpencil.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item {
+   width: 1000
+   height: 600
+   adjust: center
+}
+
+#homeh {
+    font-size: 46;
+    background-color: lightgrey;
+    width: 700px;
+    border: 10px solid black;
+    font-family: attractive;
+    font-weight: bold;
+    text-align: center;
+}
+
+fieldset {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  padding: 0 625em; /*10px*/
+}
+
+.fields {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  margin: .75em;
+  padding: .75em;
+}
+
+.fields .row {
+  margin: 0.5em 0;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 6px;
+  text-align: right;
+  width: 150px;
+  vartical align: top;
+}
+
+input. select, button {
+  font-size: inherit;
+}
+
+.field-small {
+  width: 75px;
+}
+
+.field-medium {
+  width: 150px;
+}
+
+.field-large {
+  width: 250px;
 }
