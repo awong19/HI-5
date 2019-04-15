@@ -12,6 +12,13 @@ ul li a{
     margin-right: 20px;
 }
 
+.display-3 {
+  font-style: italic;
+  font: harlow;
+  font-size: 75px;
+  text-decoration: underline;
+}
+
 .aboutus{
   font-style: italic;
   font: harlow;
@@ -86,16 +93,18 @@ body {
 }
 
 .jumbotron {
+
   background-image: url(images/drops.jpg);
   text-align: center;
 }
 
 .jumbotronhead {
+
   background-image: url(images/funny.jpg);
 }
 
 fieldset {
-  float: right;
+
   width: 400px;
   background-color: #f1f1f1;
   border: none;
@@ -139,4 +148,8 @@ input. select, button {
 
 .field-large {
   width: 250px;
+}
+
+.carouselslide {
+  float: left;
 }
