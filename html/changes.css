@@ -1,3 +1,9 @@
+.banner {
+  background-image:url(images/topbackground.jpg);
+  background-size: 1500px 300px
+
+}
+
 .social-part .fa{
     padding-right:20px;
 }
@@ -79,23 +85,24 @@ body {
    adjust: center
 }
 
-#homeh {
-    font-size: 46;
-    background-color: lightgrey;
-    width: 700px;
-    border: 10px solid black;
-    font-family: attractive;
-    font-weight: bold;
-    text-align: center;
+.jumbotron {
+  background-image: url(images/drops.jpg);
+  text-align: center;
+}
+
+.jumbotronhead {
+  background-image: url(images/funny.jpg);
 }
 
 fieldset {
+  float: right;
+  width: 400px;
   background-color: #f1f1f1;
   border: none;
   border-radius: 2px;
   margin-bottom: 12px;
   overflow: hidden;
-  padding: 0 625em; /*10px*/
+  padding: 0 10px;
 }
 
 .fields {
